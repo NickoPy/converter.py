@@ -146,5 +146,5 @@ while continua:
         time.sleep(0.5)
 
     # restart/exit loop
-    si_continua = input(Fore.LIGHTBLUE_EX + "Do you want to continue? y/n \n")
-    continua = si_continua == "y"
+    yes_continue = input(Fore.LIGHTBLUE_EX + "Do you want to continue? y/n \n")
+    continua = yes_continue == "y"
